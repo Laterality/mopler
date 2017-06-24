@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/AppTheme"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/dialog_container_padding_bottom"
+              android:paddingLeft="@dimen/dialog_container_padding_left"
+              android:paddingRight="@dimen/dialog_container_padding_left"
+              android:paddingTop="@dimen/dialog_container_padding_top">
+
+
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_dlg_add_general_record_income_outgo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_dlg_add_general_record_outgo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/string_outgo"
+                />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_dlg_add_general_record_income"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/string_income"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!-- BEGIN : Where-->
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_dlg_add_general_record_where"
+            style="@style/FormRow_Content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_where_spent"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dlg_add_general_record_where_err"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_error"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/DefaultTextView_Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_msg_err_input_where"/>
+
+    </LinearLayout>
+    <!-- END : Where-->
+
+    <!-- BEGIN : Content -->
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_dlg_add_general_record_content"
+            style="@style/FormRow_Content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_content_optional"
+            android:inputType="text"/>
+
+    </LinearLayout>
+    <!-- END : Content -->
+
+    <!-- BEGIN : Amount -->
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/et_dlg_add_general_record_amount"
+            style="@style/FormRow_Content"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_amount"
+            android:inputType="numberDecimal"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dlg_add_general_record_amount_err"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_error"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/DefaultTextView_Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_msg_err_input_amount"/>
+
+    </LinearLayout>
+    <!-- END : Amount -->
+
+    <!-- BEGIN : Date -->
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_dlg_add_general_record"
+            style="@style/DefaultTextView_Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btn_dlg_add_general_record_set_date"
+            style="@style/ButtonDateSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_set_date"/>
+
+    </LinearLayout>
+    <!-- END : Date -->
+
+    <!-- BEGIN : Button area -->
+    <LinearLayout
+        style="@style/DialogButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dlg_add_general_record_cancel"
+            style="@style/DialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_cancel"/>
+
+        <Button
+            android:id="@+id/btn_dlg_add_general_record_ok"
+            style="@style/DialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_ok"/>
+
+    </LinearLayout>
+    <!-- END : Button area -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_dlg_add_general_record_err_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

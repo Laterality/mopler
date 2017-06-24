@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <!--<android.support.constraint.ConstraintLayout-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_summary_group_card_margin_bottom"
+        android:layout_marginLeft="@dimen/item_summary_group_card_margin_left"
+        android:layout_marginRight="@dimen/item_summary_group_card_margin_right"
+        android:layout_marginTop="@dimen/item_summary_group_card_margin_top"
+        android:background="@color/colorBackground"
+        android:elevation="@dimen/item_summary_group_card_elevation"
+        android:paddingBottom="@dimen/item_summary_group_card_padding_bottom"
+        android:paddingLeft="@dimen/item_summary_group_card_padding_left"
+        android:paddingRight="@dimen/item_summary_group_card_padding_right"
+        android:paddingTop="@dimen/item_summary_group_card_padding_top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/ll_group_summary_date_area"
+            style="@style/CardRow_Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/main_card_date_group_margin_bottom"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/ll_group_summary_card_group">
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_group_summary_date"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+            <TextView
+                android:id="@+id/tv_group_summary_date_year"
+                style="@style/CardRow_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_group_summary_date_month"
+                style="@style/CardRow_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_group_summary_date_day"
+                style="@style/CardRow_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CardRow_Group"
+            android:id="@+id/ll_group_summary_card_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_group_summary_date_area">
+
+            <!-- BEGIN : Budget -->
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardRow_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_budget"/>
+
+                <TextView
+                    android:id="@+id/tv_group_summary_budget"
+                    style="@style/CardRow_Content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_tmp_amount"/>
+
+            </LinearLayout>
+            <!-- END : Budget -->
+
+            <!-- BEGIN : Outgo -->
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardRow_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_outgo"/>
+
+                <TextView
+                    android:id="@+id/tv_group_summary_outgo"
+                    style="@style/CardRow_Content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_tmp_amount"/>
+
+            </LinearLayout>
+            <!-- END : Outgo -->
+
+            <!-- BEGIN : Income -->
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardRow_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_income"/>
+
+                <TextView
+                    android:id="@+id/tv_group_summary_income"
+                    style="@style/CardRow_Content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_tmp_amount"/>
+
+            </LinearLayout>
+            <!-- END : Income -->
+
+            <!-- BEGIN : Summary -->
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CardRow_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_summary"/>
+
+                <TextView
+                    android:id="@+id/tv_group_summary_summary"
+                    style="@style/CardRow_Content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_tmp_amount"/>
+
+            </LinearLayout>
+            <!-- END : Summary -->
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+</android.support.constraint.ConstraintLayout>

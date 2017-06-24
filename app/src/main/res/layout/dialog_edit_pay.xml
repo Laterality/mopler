@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/CommonContainer"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            style="@style/FormRow_Content"
+            android:id="@+id/et_dlg_edit_pay_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_name"
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            style="@style/FormRow_Content"
+            android:id="@+id/et_dlg_edit_pay_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/string_amount"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/FormRow_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_dlg_edit_pay_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/string_received"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/DialogButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            style="@style/DialogButton"
+            android:id="@+id/btn_dlg_edit_pay_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_cancel"/>
+
+        <Button
+            style="@style/DialogButton"
+            android:id="@+id/btn_dlg_edit_pay_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_ok"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

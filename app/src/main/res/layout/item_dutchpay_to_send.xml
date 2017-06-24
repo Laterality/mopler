@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/item_list_dutchpay_to_send_container_padding_bottom"
+              android:paddingLeft="@dimen/item_list_dutchpay_to_send_container_padding_left"
+              android:paddingRight="@dimen/item_list_dutchpay_to_send_container_padding_right"
+              android:paddingTop="@dimen/item_list_dutchpay_to_send_container_padding_top">
+
+    <TextView
+        style="@style/DefaultTextView_Primary"
+        android:id="@+id/tv_item_dutchpay_to_send_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_list_dutchpay_to_send_text_margin_top"
+        android:layout_marginBottom="@dimen/item_list_dutchpay_to_send_text_margin_bottom"
+        android:text="TITLE"/>
+
+    <TextView
+        style="@style/DefaultTextView_Primary"
+        android:id="@+id/tv_item_dutchpay_to_send_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_list_dutchpay_to_send_text_margin_top"
+        android:layout_marginBottom="@dimen/item_list_dutchpay_to_send_text_margin_bottom"
+        android:text="0"/>
+
+    <TextView
+        style="@style/DefaultTextView_Primary"
+        android:id="@+id/tv_item_dutchpay_to_send_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_list_dutchpay_to_send_text_margin_top"
+        android:layout_marginBottom="@dimen/item_list_dutchpay_to_send_text_margin_bottom"
+        android:text="0"/>
+
+</LinearLayout>

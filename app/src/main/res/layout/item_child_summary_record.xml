@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="@dimen/item_summary_child_bar_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/item_summary_child_bar_margin_left"
+            android:layout_marginRight="@dimen/item_summary_child_bar_margin_right"
+            android:background="@color/colorAccent"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_summary_child_card_margin_bottom"
+            android:layout_marginLeft="@dimen/item_summary_child_card_margin_left"
+            android:layout_marginRight="@dimen/item_summary_child_card_margin_right"
+            android:layout_marginTop="@dimen/item_summary_child_card_margin_top"
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/item_summary_child_card_padding_bottom"
+            android:paddingLeft="@dimen/item_summary_child_card_padding_left"
+            android:paddingRight="@dimen/item_summary_child_card_padding_right"
+            android:paddingTop="@dimen/item_summary_child_card_padding_top">
+
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_child_summary_record_text_content"
+                    style="@style/CardRow_Title"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tv_child_summary_record_content"
+                    style="@style/CardRow_Content"
+                    android:layout_height="wrap_content"
+                    android:text="text_content"
+                    app:layout_constraintLeft_toRightOf="@+id/tv_child_summary_record_text_content"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- TODO : it should changes dynamically -->
+                <TextView
+                    android:id="@+id/tv_child_summary_record_text_where"
+                    style="@style/CardRow_Title"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_where_spent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_child_summary_record_text_content"/>
+
+                <TextView
+                    android:id="@+id/tv_child_summary_record_where"
+                    style="@style/CardRow_Content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="text_where"
+                    app:layout_constraintLeft_toRightOf="@+id/tv_child_summary_record_text_where"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_child_summary_record_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CardRow_Group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_child_summary_record_text_amount"
+                    style="@style/CardRow_Title"
+                    android:layout_height="wrap_content"
+                    android:text="@string/string_amount"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_child_summary_record_text_where"/>
+
+                <TextView
+                    android:id="@+id/tv_child_summary_record_amount"
+                    style="@style/CardRow_Content"
+                    android:layout_height="wrap_content"
+                    android:text="text_amount"
+                    app:layout_constraintLeft_toRightOf="@+id/tv_child_summary_record_text_amount"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_child_summary_record_where"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

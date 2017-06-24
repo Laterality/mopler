@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">머플러</string>
+
+    <string name="string_money_unit">원</string>
+    <string name="string_people_unit">명</string>
+    <string name="string_format_year">%d년</string>
+    <string name="string_format_month">%d월</string>
+    <string name="string_format_day">%d일</string>
+    <string name="string_tmp_amount">000원</string>
+    <string name="string_where_spent">사용처</string>
+    <string name="string_where_gain">수입처</string>
+    <string name="string_content_optional">품목(선택)</string>
+    <string name="string_content">품목</string>
+    <string name="string_amount">금액</string>
+    <string name="string_date">날짜</string>
+    <string name="string_ok">확인</string>
+    <string name="string_cancel">취소</string>
+    <string name="string_next">다음</string>
+    <string name="string_in_today">오늘은</string>
+    <string name="string_budget">예산</string>
+    <string name="string_income">수입</string>
+    <string name="string_outgo">지출</string>
+    <string name="string_summary">합계</string>
+    <string name="string_records">내역</string>
+    <string name="string_to_send">보낼 것</string>
+    <string name="string_to_receive">받을 것</string>
+    <string name="string_dutchpay_title">이름(품목)</string>
+    <string name="string_total">합계</string>
+    <string name="string_num_of_people">인원</string>
+    <string name="string_each">각</string>
+    <string name="string_each_won">원 씩</string>
+    <string name="string_total_under">원 부족합니다</string>
+    <string name="string_total_over">원 남습니다</string>
+    <string name="string_name_default">이름을 입력해주세요</string>
+    <string name="string_name">이름</string>
+    <string name="string_dutchpay">더치페이</string>
+    <string name="string_received">받았음</string>
+    <string name="string_not_received">못받았음</string>
+    <string name="string_sent">보냈음</string>
+    <string name="string_not_sent">안보냈음</string>
+    <string name="string_dialog_add_record_title">수입/지출 추가</string>
+    <string name="string_add_dutchpay">더치페이 추가</string>
+
+
+    <string name="btn_add_general_record">수입/지출 추가</string>
+    <string name="btn_add_repetition_record">정기 수입/지출 추가</string>
+    <string name="btn_goto_monthly_calendar">월별 보기</string>
+    <string name="btn_set_date">날짜 설정</string>
+    <string name="btn_add">추가하기</string>
+    <string name="btn_records">내역보기</string>
+    <string name="btn_statistics">통계보기</string>
+    <string name="btn_dutch_pay_note">더치페이</string>
+
+    <string name="text_msg_err_input_where">사용(수입)처를 입력해주세요</string>
+    <string name="text_msg_err_input_amount">금액을 입력해주세요</string>
+    <string name="text_msg_has_been_input">입력되었습니다</string>
+    <string name="text_msg_error_occurred">오류가 발생했습니다</string>
+    <string name="text_explain_daily_budget">매일 사용할 예산을 입력해주세요</string>
+    <string name="text_msg_invalid_input">올바른 값을 입력해주세요</string>
+    <string name="text_msg_has_added">추가되었습니다</string>
+    <string name="text_msg_err_input_title">품목을 입력해주세요</string>
+    <string name="text_msg_err_input_nop">인원을 입력해주세요</string>
+    <string name="text_notification_title_outgo">지출 알림</string>
+    <string name="text_notification_content_outgo">지출을 입력해주세요</string>
+
+    <string-array name="months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+        <item>일</item>
+    </string-array>
+</resources>

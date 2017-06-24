@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+
+    </style>
+
+    <style name="ButtonDateSet" parent="Widget.AppCompat.ImageButton">
+
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:src">@drawable/ic_date_range_white_48dp</item>
+        <item name="android:adjustViewBounds">true</item>
+
+    </style>
+
+    <style name="DefaultTextView_Primary" >
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>'
+        <item name="android:layout_marginRight">@dimen/text_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/text_margin_bottom</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DefaultTitleTextView" parent="@style/DefaultTextView_Primary" >
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>'
+        <item name="android:layout_marginRight">@dimen/text_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/text_margin_bottom</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CommonContainer">
+        <item name="android:paddingLeft">@dimen/container_padding_left</item>
+        <item name="android:paddingRight">@dimen/container_padding_right</item>
+        <item name="android:paddingTop">@dimen/container_padding_top</item>
+        <item name="android:paddingBottom">@dimen/container_padding_bottom</item>
+    </style>
+
+    <style name="CommonRowContainer">
+        <item name="android:paddingLeft">@dimen/row_container_padding_left</item>
+        <item name="android:paddingRight">@dimen/row_container_padding_right</item>
+        <item name="android:paddingTop">@dimen/row_container_padding_top</item>
+        <item name="android:paddingBottom">@dimen/row_container_padding_bottom</item>
+    </style>
+
+    <!-- BEGIN : Form -->
+    <style name="FormRow_Group">
+        <item name="android:layout_marginTop">@dimen/form_row_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/form_row_margin_bottom</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="FormRow_Title" parent="@style/DefaultTextView_Primary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="FormRow_Content" parent="@style/DefaultTextView_Primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:paddingLeft">@dimen/dialog_form_padding_left</item>
+        <item name="android:paddingRight">@dimen/dialog_form_padding_right</item>
+        <item name="android:paddingTop">@dimen/dialog_form_padding_top</item>
+        <item name="android:paddingBottom">@dimen/dialog_form_padding_bottom</item>
+    </style>
+
+    <style name="FormRow_Group_Date" parent="@style/FormRow_Group">
+        <item name="android:layout_marginTop">@dimen/form_row_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/form_row_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/dialog_form_date_padding_left</item>
+        <item name="android:paddingRight">@dimen/dialog_form_date_padding_right</item>
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:weightSum">6</item>-->
+    </style>
+
+    <style name="FormRow_Date" parent="@style/DefaultTextView_Primary">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:paddingLeft">@dimen/dialog_form_padding_left</item>
+        <item name="android:paddingRight">@dimen/dialog_form_padding_right</item>
+        <item name="android:paddingTop">@dimen/dialog_form_padding_top</item>
+        <item name="android:paddingBottom">@dimen/dialog_form_padding_bottom</item>
+    </style>
+    <!-- END : Form -->
+
+    <!-- BEGIN : Dialog -->
+    <style name="DialogButtonGroup">
+        <item name="android:layout_marginTop">@dimen/dialog_button_group_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/dialog_button_group_margin_bottom</item>
+    </style>
+
+    <style name="DialogButton" parent="@style/DefaultButton">
+        <item name="android:paddingTop">@dimen/dialog_button_padding_top</item>
+        <item name="android:paddingBottom">@dimen/dialog_button_padding_bottom</item>
+    </style>
+    <!-- END : Dialog -->
+
+    <!-- BEGIN : Card Row -->
+    <style name="CardRow_Group">
+        <item name="android:layout_marginTop">@dimen/form_row_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/form_row_margin_bottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:weightSum">6</item>-->
+    </style>
+
+    <style name="CardRow_Title" parent="@style/DefaultTextView_Primary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="CardRow_Content" parent="@style/DefaultTextView_Primary">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">8</item>
+    </style>
+
+    <style name="CardRow_Date" parent="@style/DefaultTextView_Primary">
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/text_margin_right</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <!-- END : Card Row -->
+
+</resources>

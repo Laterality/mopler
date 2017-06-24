@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_dialog_medium">14sp</dimen>
+
+    <dimen name="dialog_add_record_general_padding_left">12dp</dimen>
+    <dimen name="dialog_add_record_general_padding_right">12dp</dimen>
+    <dimen name="main_root_padding_left">16dp</dimen>
+    <dimen name="main_root_padding_right">16dp</dimen>
+    <dimen name="main_root_padding_top">12dp</dimen>
+    <dimen name="main_root_padding_bottom">12dp</dimen>
+    <dimen name="main_card_margin_left">8dp</dimen>
+    <dimen name="main_card_margin_right">8dp</dimen>
+    <dimen name="main_card_margin_top">8dp</dimen>
+    <dimen name="main_card_margin_bottom">8dp</dimen>
+    <dimen name="main_card_elevation">3dp</dimen>
+    <dimen name="main_card_date_group_margin_bottom">12dp</dimen>
+    <dimen name="main_button_group_padding_left">8dp</dimen>
+    <dimen name="main_button_group_padding_right">8dp</dimen>
+    <dimen name="main_button_group_padding_top">8dp</dimen>
+    <dimen name="main_button_group_padding_bottom">8dp</dimen>
+    <dimen name="main_img_btn_margin_left">8dp</dimen>
+    <dimen name="main_img_btn_margin_right">8dp</dimen>
+    <dimen name="elv_summary_margin_top">8dp</dimen>
+    <dimen name="dialog_add_dutchpay_list_expander_height">36dp</dimen>
+    <dimen name="add_dutchpay_container_padding_left">16dp</dimen>
+    <dimen name="add_dutchpay_container_padding_right">16dp</dimen>
+    <dimen name="add_dutchpay_container_padding_top">16dp</dimen>
+    <dimen name="add_dutchpay_container_padding_bottom">16dp</dimen>
+    <dimen name="dutchpay_to_receive_detail_row_margin_top">8dp</dimen>
+    <dimen name="dutchpay_to_receive_detail_row_margin_bottom">8dp</dimen>
+
+    <dimen name="item_summary_group_card_margin_left">8dp</dimen>
+    <dimen name="item_summary_group_card_margin_right">8dp</dimen>
+    <dimen name="item_summary_group_card_margin_top">8dp</dimen>
+    <dimen name="item_summary_group_card_margin_bottom">8dp</dimen>
+    <dimen name="item_summary_group_card_padding_left">8dp</dimen>
+    <dimen name="item_summary_group_card_padding_right">8dp</dimen>
+    <dimen name="item_summary_group_card_padding_top">8dp</dimen>
+    <dimen name="item_summary_group_card_padding_bottom">8dp</dimen>
+    <dimen name="item_summary_group_card_elevation">3dp</dimen>
+    <dimen name="item_summary_child_card_margin_left">8dp</dimen>
+    <dimen name="item_summary_child_card_margin_right">16dp</dimen>
+    <dimen name="item_summary_child_card_margin_top">0dp</dimen>
+    <dimen name="item_summary_child_card_margin_bottom">0dp</dimen>
+    <dimen name="item_summary_child_card_padding_left">8dp</dimen>
+    <dimen name="item_summary_child_card_padding_right">8dp</dimen>
+    <dimen name="item_summary_child_card_padding_top">8dp</dimen>
+    <dimen name="item_summary_child_card_padding_bottom">8dp</dimen>
+    <dimen name="item_summary_child_bar_width">3dp</dimen>
+    <dimen name="item_summary_child_bar_margin_left">16dp</dimen>
+    <dimen name="item_summary_child_bar_margin_right">8dp</dimen>
+    <dimen name="item_list_pay_container_padding_top">8dp</dimen>
+    <dimen name="item_list_pay_container_padding_bottom">8dp</dimen>
+    <dimen name="item_list_pay_container_padding_left">16dp</dimen>
+    <dimen name="item_list_pay_container_padding_right">16dp</dimen>
+    <dimen name="item_list_dutchpay_to_receive_text_margin_top">8dp</dimen>
+    <dimen name="item_list_dutchpay_to_receive_text_margin_bottom">8dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_container_padding_left">16dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_container_padding_right">16dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_container_padding_top">16dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_container_padding_bottom">16dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_text_margin_top">2dp</dimen>
+    <dimen name="item_list_dutchpay_to_send_text_margin_bottom">2dp</dimen>
+    <!--<dimen name="item_summary_child_card_elevation">3dp</dimen>-->
+    <dimen name="toolbar_text_size">18sp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_text_size">20sp</dimen>
+
+    <!-- Commons -->
+    <dimen name="dialog_container_padding_left">16dp</dimen>
+    <dimen name="dialog_container_padding_right">16dp</dimen>
+    <dimen name="dialog_container_padding_top">16dp</dimen>
+    <dimen name="dialog_container_padding_bottom">16dp</dimen>
+
+    <dimen name="dialog_form_padding_left">12dp</dimen>
+    <dimen name="dialog_form_padding_right">12dp</dimen>
+    <dimen name="dialog_form_padding_top">16dp</dimen>
+    <dimen name="dialog_form_padding_bottom">16dp</dimen>
+
+    <dimen name="dialog_form_date_padding_left">12dp</dimen>
+    <dimen name="dialog_form_date_padding_right">12dp</dimen>
+
+    <dimen name="dialog_button_padding_top">4dp</dimen>
+    <dimen name="dialog_button_padding_bottom">4dp</dimen>
+
+    <dimen name="form_row_margin_top">4dp</dimen>
+    <dimen name="form_row_margin_bottom">4dp</dimen>
+
+    <dimen name="dialog_button_group_margin_top">16dp</dimen>
+    <dimen name="dialog_button_group_margin_bottom">8dp</dimen>
+
+    <dimen name="button_margin_left">8dp</dimen>
+    <dimen name="button_margin_right">8dp</dimen>
+    <dimen name="button_margin_top">4dp</dimen>
+    <dimen name="button_margin_bottom">4dp</dimen>
+
+    <dimen name="container_padding_left">16dp</dimen>
+    <dimen name="container_padding_right">16dp</dimen>
+    <dimen name="container_padding_top">16dp</dimen>
+    <dimen name="container_padding_bottom">16dp</dimen>
+    <dimen name="row_container_padding_left">8dp</dimen>
+    <dimen name="row_container_padding_right">8dp</dimen>
+    <dimen name="row_container_padding_top">8dp</dimen>
+    <dimen name="row_container_padding_bottom">8dp</dimen>
+    <dimen name="text_margin_top">4dp</dimen>
+    <dimen name="text_margin_bottom">4dp</dimen>
+    <dimen name="text_margin_left">4dp</dimen>
+    <dimen name="text_margin_right">4dp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+</resources>
